@@ -24,6 +24,7 @@ export default function Page() {
         setQuote(data.quote)
       }
     } catch (error) {
+      console.log(error)
       setQuote("Just do it!")
     } finally {
       setLoading(false)
