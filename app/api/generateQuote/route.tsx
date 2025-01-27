@@ -4,8 +4,8 @@ import { NextResponse } from "next/server";
 export async function GET() {
     const promptDraft = await generateQuotePrompt()
     const prompt = JSON.parse(promptDraft)
-    const response = await generateQuote(prompt.response)
-    const quote = JSON.parse(response)
+    const res = await generateQuote(prompt.response)
+    const quote = JSON.parse(res)
 
     const response = NextResponse.json({
         success: true,
