@@ -7,9 +7,17 @@ export async function GET() {
     const response = await generateQuote(prompt.response)
     const quote = JSON.parse(response)
 
-    return NextResponse.json({
+    const response = NextResponse.json({
         success: true,
         quote: quote.response,
         message: "Successful generation"
     })
+
+    
+    // Adding CORS headers to allow any origin
+    response.headers.set("Access-Control-Allow-Origin", "*");  // Allow any origin
+    response.headers.set("Access-Control-Allow-Methods", "GET, POST, OPTIONS");  // Allow specific methods
+    response.headers.set("Access-Control-Allow-Headers", "Content-Type");  // Allow specific headers
+
+    return response
 }
