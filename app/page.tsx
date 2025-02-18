@@ -33,14 +33,10 @@ export default function Page() {
   return (
     <div className="flex flex-col justify-center items-center h-screen bg-gradient-to-b from-indigo-100 via-white to-indigo-50 p-5">
       <div className="bg-white shadow-lg rounded-2xl p-10 max-w-2xl w-full">
-        {/* <h1 className="text-2xl font-extrabold text-gray-800 text-center mb-5">
-          Motivational Generator
-        </h1> */}
         <div className="text-center">
           {loading ? (
             <p className="text-lg font-medium text-gray-600 animate-pulse">
-              Finding the best {quote === "Just do it!" ? "quote" : "joke"} for
-              you...
+              Squeezing my brain cells... please wait
             </p>
           ) : (
             <p className="text-3xl font-semibold text-blue-600">{quote}</p>

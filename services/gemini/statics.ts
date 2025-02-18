@@ -1,0 +1,22 @@
+export const sampleMotivationalQuotes = [
+    "Success is not the destination; it's the courage to continue that counts.",
+    "The harder you work for something, the greater you'll feel when you achieve it.",
+    "Dreams don’t work unless you do.",
+    "The future belongs to those who believe in the beauty of their dreams. — Eleanor Roosevelt",
+    "Great things never come from comfort zones.",
+    "Do not wait for the right moment; create it.",
+    "Your limitation—it’s only your imagination.",
+    "Push yourself because no one else is going to do it for you.",
+    "Failure is the opportunity to begin again, this time more intelligently. — Henry Ford",
+    "Start where you are. Use what you have. Do what you can. — Arthur Ashe",
+    "Don’t stop until you’re proud.",
+    "You don’t have to be great to start, but you have to start to be great.",
+    "Small steps in the right direction can turn out to be the biggest steps of your life.",
+    "The best time to plant a tree was 20 years ago. The second best time is now.",
+    "Doubt kills more dreams than failure ever will.",
+    "What you get by achieving your goals is not as important as what you become by achieving them.",
+    "Every day is a chance to be better than yesterday.",
+    "Focus on the step in front of you, not the whole staircase.",
+    "A river cuts through rock not because of its power, but because of its persistence.",
+    "Your greatest power is your ability to choose your attitude."
+];

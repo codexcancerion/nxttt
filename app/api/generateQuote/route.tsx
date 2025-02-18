@@ -1,4 +1,4 @@
-import { generateQuotePrompt, generateQuote } from "@/services/gemini/generateQuote";
+import { generateQuotePrompt, generateQuote } from "@/services/gemini/generators";
 import { NextResponse } from "next/server";
 
 export async function GET() {
